@@ -1,0 +1,15 @@
+{
+  "name":        "avancando-com-angular-js-1.5",
+  "version":     "1.0.0",
+  "title" :      "Avançando com AngularJS 1.5",
+  "description": "Um projeto do curso AngularJS 1.5 avançado da School of Net",
+  "author":      "Paulo Cesar Ferreira de Mello <pcfmello@gmail.com>",
+  "devDependencies" : {
+    "gulp":             "3.9.1",
+    "gulp-live-server": "0.0.30",
+    "gulp-uglify":      "2.1.2",
+    "gulp-browserify" : "0.5.1",
+    "gulp-rename":      "1.2.2",
+    "angular":          "1.6.3"
+  }
+}
