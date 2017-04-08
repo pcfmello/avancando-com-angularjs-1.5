@@ -1,9 +1,9 @@
 /* VARIÁVEIS PARA O FUNCIONAMENTO DO GULP */
-var gulp =      require('gulp'),
-    uglify =    require('gulp-uglify'),
-    server =    require('gulp-live-server'),
+var gulp =       require('gulp'),
+    uglify =     require('gulp-uglify'),
+    server =     require('gulp-live-server'),
     browserify = require('gulp-browserify'),
-    rename =    require('gulp-rename');
+    rename =     require('gulp-rename');
 
 /* TAREFAS A SEREM EXECUTADAS */
 gulp.task('default', ['browserify', 'watch', 'serve']);
@@ -14,7 +14,7 @@ gulp.task('default', ['browserify', 'watch', 'serve']);
 * A TAREFA browserify QUE ESTÁ LOGO ABAIXO
 * */
 gulp.task('watch', function() {
-    gulp.watch('app/**/*.js');
+    gulp.watch('app/**/*.js', ['browserify']);
 });
 
 /*
